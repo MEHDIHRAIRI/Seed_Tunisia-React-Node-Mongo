@@ -22,30 +22,6 @@
         "desc": "You can start live streaming your meetings and video content in our space. Available on all platforms such as Zoom, Google Meet, Microsoft Teams ...",
         "pageLink": "Learn More",
         "link": "service"
-    },
-    {
-        "id": "4",
-        "icon": "images/svg/linea/linea-ecommerce-cart-plus.svg",
-        "title": "Ecommerce",
-        "desc": "Our web design services can help rediscover your business’ image in the internet marketplace.",
-        "pageLink": "Learn More",
-        "link": "service"
-    },
-    {
-        "id": "5",
-        "icon": "images/svg/linea/linea-basic-gear.svg",
-        "title": "Development",
-        "desc": "Our web design services can help rediscover your business’ image in the internet marketplace.",
-        "pageLink": "Learn More",
-        "link": "service"
-    },
-    {
-        "id": "6",
-        "icon": "images/svg/linea/linea-basic-display.svg",
-        "title": "Marketing",
-        "desc": "Our web design services can help rediscover your business’ image in the internet marketplace.",
-        "pageLink": "Learn More",
-        "link": "service"
     }
     
 ]

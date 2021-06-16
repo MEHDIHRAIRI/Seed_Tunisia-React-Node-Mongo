@@ -8,10 +8,8 @@ import Service from './pages/Service';
 import Work from './pages/Work';
 import WorkDetails from './pages/WorkDetails';
 import BlogGrid from './pages/BlogGrid';
-import BlogClassic from './pages/BlogClassic';
 import BlogDetails from './pages/BlogDetails';
 import BlogCategories from './pages/BlogCategories';
-import BlogTag from './pages/BlogTag';
 import Contact from './pages/Contact';
 
 // CSS File Here
@@ -41,8 +39,6 @@ function App() {
               <Route path={`${process.env.PUBLIC_URL + "/work"}`} component ={Work} />
               <Route path={`${process.env.PUBLIC_URL + "/work-details/:id"}`} component ={WorkDetails} />
               <Route path={`${process.env.PUBLIC_URL + "/blog-grid"}`} component ={BlogGrid} />
-              <Route path={`${process.env.PUBLIC_URL + "/blog-classic"}`} component ={BlogClassic} />
-              <Route path={`${process.env.PUBLIC_URL + "/tag/:slug"}`} component ={BlogTag} />
               <Route path={`${process.env.PUBLIC_URL + "/category/:slug"}`}component ={BlogCategories} />
               <Route path={`${process.env.PUBLIC_URL + "/blog-details/:id"}`}component ={BlogDetails} />
               <Route path={`${process.env.PUBLIC_URL + "/contact"}`} component ={Contact} />

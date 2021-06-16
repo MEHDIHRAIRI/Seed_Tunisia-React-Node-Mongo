@@ -2,7 +2,6 @@ import React, { useEffect, useRef } from "react";
 import contactDataTwo from '../../data/contactInfo/contactInfoTwo.json';
 import ContactInfoItem from '../../components/ContactInfo/ContactInfoItemTwo.jsx';
 import SectionTitle from '../../components/SectionTitles/SectionTitle';
-import SectionTitleTwo from '../../components/SectionTitles/SectionTitleTwo.jsx';
 import ProjectForm from '../../components/ProjectForm/ProjectForm';
 import Parallax from 'parallax-js';
 
@@ -25,9 +24,8 @@ const ContactInformationThree = () => {
                 <div className="row row-cols-lg-2 row-cols-1 align-items-center">
                     <div className="col" data-aos="fade-up">
                         <div className="contact-Information mr-xl-7">
-                            <SectionTitleTwo 
-                                classOption="color-light"
-                                subTitle="Innovative & cutting-edge technology"
+                            <SectionTitle
+                                titleOption="color-light"
                                 title="We use latest technologies that are proven and practical"
                             />
 

@@ -1,0 +1,19 @@
+[
+    {
+        "id": "1",
+        "title": "First Open Space for Digital content in Tunisia",
+        "backgroundImage": "/images/hero-image/hero-2.jpg"
+    },
+    {
+        "id": "2",
+        "title": "Designing awesome brands & experiences",
+        "desc": "Seed est le premier espace ouvert pour les créateurs de contenu digital en Tunisie.",
+        "backgroundImage": "/images/hero-image/hero-1.jpg"
+    },
+    {
+        "id": "3",
+        "title": "Designing awesome brands & experiences",
+        "desc": "Seed est le premier espace ouvert pour les créateurs de contenu digital en Tunisie.",
+        "backgroundImage": "/images/hero-image/hero-3.jpg"
+    }
+]

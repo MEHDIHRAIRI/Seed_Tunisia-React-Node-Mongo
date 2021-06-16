@@ -14,8 +14,8 @@ const getContactForms = async (req, res) => {
 
 const createContactForms = async (req, res) => {
   var newcontact = new ContactForm();
-  newconstact.name = req.body.name;
-  newconstact.email = req.body.email;
+  newcontact.name = req.body.name;
+  newcontact.email = req.body.email;
   newcontact.subject = req.body.subject;
   newcontact.message = req.body.message;
   console.log("contact Form: ", req.body);

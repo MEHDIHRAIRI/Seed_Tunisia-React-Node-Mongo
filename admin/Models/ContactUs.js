@@ -1,9 +1,9 @@
 const mongoose = require("mongoose");
 const ContactUsSchema = mongoose.Schema({
-  Name: { type: String },
-  Email: { type: String },
-  Subject: { type: String },
-  Message: { type: String },
+  name: { type: String },
+  email: { type: String },
+  subject: { type: String },
+  message: { type: String },
 });
 const ContactUs = mongoose.model("ContactUs", ContactUsSchema);
 module.exports = ContactUs;
